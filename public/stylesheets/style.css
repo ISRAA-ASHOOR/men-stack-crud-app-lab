@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Spicy+Rice&display=swap');
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: "Righteous", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+}
+  
+h1 {
+    color:rgb(219, 163, 172);
+    font-size: 3.6em;
+}
+
+.index1 {
+    background-color: rgb(219, 163, 172);
+    color: white;
+    font-size: 1.4em;
+    width: 10em;
+    padding: 5px 15px;
+    margin: 15px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 5px #f1e0e7;
+}
+  
+.foods-pic {
+    height: 300px;
+    width: 500px;
+}
+
+.foods-index-link {
+    text-decoration: none;
+}
+  
+.index-link-text {
+    background-color: #eba6c1;
+    color: white;
+    font-size: 1.4em;
+    width: 10em;
+    padding: 5px 15px;
+    margin: 15px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 5px #e6cad5;
+}
+  
+.index-link-text:hover {
+    background-color: rgb(219, 163, 172);
+    box-shadow: 0 5px #e6cad5;
+}
+  
+.index-link-text:active {
+    background-color: rgb(219, 163, 172);
+    box-shadow: 0 2.5px #e6cad5;
+}
+
+form {
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #edcfdb;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 5px 6px #e6cad5;
+    margin: 20px 10px;
+}
+  
+.checkbox-div {
+    flex-direction: row;
+}
+  
+label,
+input {
+    margin: 10px 2px 0 2px;
+}
+  
+button {
+    align-self: center;
+    /* margin: 10px 4px 4px 4px; */
+    margin: 10px;
+    background-color: rgb(219, 163, 172);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+    width: 15em;
+}
+  
+button:hover {
+    background-color: rgb(219, 163, 172);
+}
+  
+button:active {
+    background-color: rgb(228, 155, 167);
+}
+
+.food-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    padding: 20px 0;
+}
+  
+.delete-form {
+    padding: 0;
+    box-shadow: 0 0;
+    background-color: transparent;
+    height: 50px;
+    margin: 0 20px 0 0;
+    min-height: 100%;
+}
+
+.delete-button {
+    background-color: rgb(219, 163, 172);
+    text-transform: uppercase;
+    padding: 40px 15px;
+    width: 70%;
+    /* height: 100%; */
+    font-size: 1.3em;
+    margin: 0;
+    min-height: 100%;
+}
+  
+.edit-link {
+    text-decoration: none;
+}
+  
+.edit-text {
+    background-color: rgb(220, 152, 163);
+    text-transform: uppercase;
+    padding: 40px 15px;
+    font-size: 1.3em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    height: 50px;
+}
+  
+.delete-button:hover {
+    background-color: rgb(222, 167, 177);
+}
+  
+.delete-button:active {
+    background-color: rgb(222, 167, 177);
+}
+  
+.edit-text:hover {
+    background-color: rgb(222, 167, 177);
+}
+  
+.edit-text:active {
+    background-color: rgb(222, 167, 177);
+    background-color: rgb(222, 167, 177);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+li {
+    list-style: none;
+}
+  
+.food-cards {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    height: 70px;
+    background-color: white;
+    margin: 10px 15px;
+    padding: 30px 50px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 2.5px solid #eba6c1;
+}
+  
+.food-cards:hover {
+    border: 4px solid #e9a5bf;
+}
+  
+.food-cards:active {
+    background-color: #efb6cc;
+    border: 2.5px solid rgb(222, 167, 177);
+    color: gray;
+}
+  
+.index-header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+  
+.add-foods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    text-decoration: none;
+    width: 6em;
+    text-transform: uppercase;
+    background-color: rgb(219, 163, 172);
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+  
+img {
+    height: 100%;
+    margin: 20px 0 0 0;
+}
