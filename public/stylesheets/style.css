@@ -189,16 +189,16 @@ li {
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    border: 2.5px solid #eba6c1;
+    border: 2.5px solid rgb(224, 148, 162);
 }
   
 .food-cards:hover {
-    border: 4px solid #e9a5bf;
+    border: 4px solid rgb(224, 148, 162);
 }
   
 .food-cards:active {
-    background-color: #efb6cc;
-    border: 2.5px solid rgb(222, 167, 177);
+    background-color: rgb(222, 167, 177);
+    border: 2.5px solid rgb(224, 148, 162);
     color: gray;
 }
   
